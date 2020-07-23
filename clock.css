@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  color: hsl(191, 100%, 68%);
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+body {
+  background-image: linear-gradient(to right,  #e55d87, #5fc3e4 );
+}
+
+
+.start-stop, .reset, .record {
+  background: hsl(200, 100%, 50%);
+  padding: .5em 1em;
+  border: none;
+  border-radius: 100000px;
+  outline: none;
+  box-shadow: none;
+  margin: .5rem;
+
+  cursor: pointer;
+}
+
+#pt {
+  transform: translate(-75px, -20px);
+  
+}
+
+#clock {
+  transform: translate(-90px);
+}
+
+#snapped {
+  list-style: none;
+}
